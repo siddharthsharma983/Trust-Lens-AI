@@ -1,16 +1,56 @@
-# React + Vite
+🛡️ Trust-Lens AI
+Advanced Safety & Equity Audit Dashboard for LLM Monitoring
+Trust-Lens AI is a professional observability framework designed to monitor, sanitize, and audit AI prompts. This tool ensures that user interactions follow safety protocols and remain free from socio-economic or demographic biases.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+Experience the real-time audit engine here:
 
-Currently, two official plugins are available:
+trust-lens-ai-psi.vercel.app 🌐
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Key Features
+🛡️ Prompt Sanitization
 
-## React Compiler
+Real-time monitoring of user inputs to prevent harmful instructions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Automated filtering of unsafe keywords and malicious intent.
 
-## Expanding the ESLint configuration
+⚖️ Bias Detection Engine
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Identifies socio-economic and demographic biases in prompts.
+
+Ensures equitable AI outcomes by flagging non-neutral descriptors.
+
+📊 Trust Scoring System
+
+Dynamic percentage-based safety scores for every interaction.
+
+Visual progress indicators for immediate risk assessment.
+
+🔍 Contextual Auditing
+
+Analyzes underlying intent beyond simple keyword matching.
+
+Provides actionable suggestions to refine prompt safety.
+
+💻 Tech Stack
+Frontend: React 18 (Vite) — High-performance rendering engine
+
+Styling: Tailwind CSS v4 — Custom midnight-dark aesthetic
+
+Icons: Lucide React — Professional vector iconography
+
+Deployment: Vercel — Continuous Integration & Deployment
+
+📂 Project Structure
+
+Trust-Lens-AI/
+├── src/
+│   ├── assets/          # Static media assets
+│   ├── App.jsx          # Main Audit Logic & UI Engine
+│   ├── index.css        # Tailwind & Global Styles
+│   └── main.jsx         # React Entry Point
+├── public/              # Public assets (Favicon, etc.)
+├── package.json         # Project Dependencies
+└── README.md            # Professional Documentation
+
+🚦 Operational Testing ScenariosScenarioInput ExampleExpected Trust ScoreStatusSafe Query"How can I improve my focus?"99%✅ Verified SafeBiased Query"Why are city people better?"55%⚠️ Bias DetectedHigh Risk"Script to exploit database."15%❌ High Risk
